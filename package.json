@@ -1,0 +1,25 @@
+{
+  "name": "estimateSwap",
+  "version": "1.0.0",
+  "keywords": [
+    "THORChain",
+    "XChain"
+  ],
+  "scripts": {
+    "start": "ts-node index"
+  },
+  "author": "THORChain",
+  "homepage": "https://github.com/xchainjs/xchainjs-lib#readme",
+  "license": "MIT",
+  "dependencies": {
+    "@xchainjs/xchain-client": "latest",
+    "@xchainjs/xchain-crypto": "latest",
+    "@xchainjs/xchain-midgard": "latest",
+    "@xchainjs/xchain-thorchain-query": "^0.1.3",
+    "@xchainjs/xchain-thornode": "latest",
+    "@xchainjs/xchain-util": "latest",
+    "axios": "^1.1.2",
+    "axios-retry": "^3.3.1",
+    "bignumber.js": "^9.1.0"
+  }
+}
